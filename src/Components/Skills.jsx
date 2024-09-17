@@ -79,7 +79,7 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <div className="flex mx-auto px-5 pt-24 pb-10 bg-gradient-to-b from-[#444] to-[#555] min-h-screen w-full z-10">
+      <div className="flex mx-auto px-5 pt-24 pb-10 bg-gradient-to-b from-[#444] to-[#555] min-h-screen w-full z-10 rounded-3xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <div
@@ -89,7 +89,7 @@ const Skills = () => {
               <img
                 src={skill.image}
                 alt={skill.name}
-                className="h-20 w-20 rounded-full mx-auto shadow-md transition-transform duration-300 group-hover:rotate-6"
+                className="hover:rotate-6 h-20 w-20 rounded-full mx-auto shadow-md transition-transform duration-300 group-hover:rotate-6"
               />
               <div className="text-center text-white mt-4">
                 <h1 className="font-bold font-serif text-xl">{skill.name}</h1>

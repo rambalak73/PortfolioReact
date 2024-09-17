@@ -6,7 +6,7 @@ const Balak = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-b from-[#444] to-[#555] min-h-screen p-20">
+      <div className="bg-gradient-to-b from-[#444] to-[#555] min-h-screen p-20 rounded-3xl">
         {/* Slider Section */}
         <div className="relative text-center">
           {/* <img

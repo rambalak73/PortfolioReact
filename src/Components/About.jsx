@@ -1,10 +1,10 @@
 import React from "react";
-
+import Rating from './Rating'
 export default function About() {
   return (
     <>
       {/* Page1 */}
-      <div className="flex pt-[50px] flex-col md:flex-row bg-gradient-to-b from-[#444] to-[#555] min-h-screen p-20">
+      <div className="flex pt-[50px] flex-col md:flex-row bg-gradient-to-b from-[#444] to-[#555] min-h-screen p-20 rounded-3xl text-justify w-full">
         {/* Left */}
         <div className="flex items-center justify-center md:w-1/2">
           <img
@@ -91,10 +91,10 @@ export default function About() {
             What Drives Me:
           </h1>
           <p className="text-lg">
-            When{" "}
+            When
             <span className="text-3xl font-bold text-yellow-400">
               I’m not coding,
-            </span>{" "}
+            </span>
             you’ll find me traveling, blogging, or enjoying a good movie. I love
             exploring new places, diving into new ideas, and connecting with
             people from all walks of life. My journey has taught me the value of
@@ -113,6 +113,7 @@ export default function About() {
       </div>
 
       <form action="" className="bg-gray-300 flex items-center justify-center">
+        <Rating/>
         <input
           type="text"
           placeholder="Share your Experience"
